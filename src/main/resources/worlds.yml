@@ -1,0 +1,4 @@
+worlds:
+  world:
+    actions:
+      - "profile-admin"

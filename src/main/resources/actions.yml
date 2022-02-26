@@ -1,0 +1,17 @@
+actions:
+  profile-admin:
+    # types: interact-at-player
+    event: "interact-at-player"
+    conditions:
+      has-creative:
+        # types: has-gamemode
+        type: "has-gamemode"
+        # types: SELF, TARGET
+        who: TARGET
+        gamemode: CREATIVE
+    actions:
+      send-message:
+        # types: chat-player, command-player
+        type: "chat-player"
+        # placeholders: %self%, %target%
+        command: "dm open profile %target%"

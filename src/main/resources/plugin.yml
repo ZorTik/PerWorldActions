@@ -1,0 +1,10 @@
+name: PerWorldActions
+version: '${version}'
+main: me.zort.perworldactions.PerWorldActions
+authors: [ ZorT ]
+description: Handles player actions based on world.
+commands:
+  perworldactions:
+    usage: /perworldactions
+    aliases:
+      - pwa
